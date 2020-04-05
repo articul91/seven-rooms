@@ -1,0 +1,189 @@
+body {
+	background: url(../img/bg.png) repeat;
+	font-family: 'Roboto' !important;	
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Comfortaa' !important;	
+}
+
+h2 {
+	margin:20px 0px 20px 0px !important;
+}
+.container {
+	background: transparent;
+}
+
+.row .col {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+#logo {
+	height: 400px;
+	background: url(../img/header.png) no-repeat;
+}
+
+#logo h1{
+	color: #fff;
+	font-family: 'Comfortaa', bold;
+
+}
+
+/* Rooms */
+#rooms .card {
+	margin-top:15px;
+	margin-bottom:10px;
+
+}
+
+#rooms .price {
+	font-size:30px;
+}
+
+
+/* Services */
+#services .card {
+	padding-top:40px;
+}
+
+#services img {
+	width:50%;
+	margin:auto;
+}
+#services .card-title {
+	font-size: 15px;
+}
+
+
+/* Reviews */
+#reviews .card {
+	margin: auto;
+	padding-top: 10px;
+	//border: none;
+	max-width: 540px;
+	min-height: 300px;
+}
+
+#reviews img {
+	vertical-align: middle;
+}
+
+
+/* Reservation */
+#reservation {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/*Галерея*/
+.thumb img {
+	-webkit-filter: grayscale(0);
+	filter: none;
+	border-radius: 5px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+.thumb img:hover {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+.thumb {
+	padding: 5px;
+}
+
+/* Contacts */
+#contacts{
+	margin-bottom: 30px;
+}
+
+#phones {
+	min-width: 400px;
+}
+
+#yamap {
+	padding-left:20px;
+}
+
+
+
+#reviews .card {
+	padding:10px;
+}
+
+/* Footer */
+footer {
+	background: #343A40;
+	height: 56px;
+	color:#fff;
+}
+footer a {
+	display: block;
+	width: 100%;
+	height:56px;
+}
+footer a span {
+	vertical-align: middle;
+}
+
+
+/*Линия заголовков*/
+.title {
+    /* Чтобы спрятать часть линий, которые 
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру, 
+    ** можно использовать left, right */
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 30px;
+}
+.title span {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before,
+.title:after {
+    /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и 
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 100%;
+    height: 2px;
+    /* Добавляем цвет для линии */
+    background-color: #343a40;
+    /* Добавляем пседоэлемантам возможность изменить 
+    ** позицию линии, для создания отступов от текста */
+    position: relative;
+}
+.title:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия 
+    ** встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -14px;
+}
+.title:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -14px;
+}

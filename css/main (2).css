@@ -1,0 +1,28 @@
+.container {
+	//background-color: brown;
+}
+
+.row .col {
+	padding: 0px;
+	margin: 0px;
+}
+
+#logo {
+	height: 400px;
+	background-color: #000;
+}
+
+#logo h1{
+	color: #fff;
+
+}
+
+.card {
+	margin-top:15px;
+	margin-bottom:10px;
+
+}
+
+.price {
+	font-size:30px;
+}
